@@ -16,11 +16,6 @@ body, h1, h2, p, hr, footer {
     left: 0;    
 }
 
-.description{
-    padding: 10px 28px;
-    margin: 2px 0;  
-} 
-
 .intro {
     width: 100%;
     font-size: 28px;  
@@ -29,6 +24,22 @@ body, h1, h2, p, hr, footer {
     color: white;
     background-color: slategray;
     position: absolute;
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 2px 0;  
+    border: 3px black solid;    
+}
+
+.show, .guessing {
+    width: 100%;
+    height: 180px;
+    font-size: 20px;  
+    text-align: center;    
+    color: white;
+    background-color: slategray;
+    position: relative;
+    top: 180px;
+    display: inline-block;
     padding: 12px 28px;
     margin: 2px 0;  
     border: 3px black solid;    
