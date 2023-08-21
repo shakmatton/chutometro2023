@@ -10,7 +10,7 @@ body{
     -webkit-font-smoothing: antialiased;      
 }
 
-body, h1, h2, hr, footer {
+body, h1, h2, p, hr, footer {
     margin: 0;
     top: 0;
     left: 0;    
@@ -21,10 +21,15 @@ body, h1, h2, hr, footer {
     margin: 2px 0;  
 } 
 
-h1 {
-    font-size: 18px;  
-    color: orangered;
-    position: center;
-    padding: auto 28px;
+.intro {
+    width: 100%;
+    font-size: 28px;  
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background-color: slategray;
+    position: absolute;
+    padding: 12px 28px;
     margin: 2px 0;  
+    border: 3px black solid;    
 }
