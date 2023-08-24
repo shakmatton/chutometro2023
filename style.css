@@ -10,7 +10,7 @@ body{
     -webkit-font-smoothing: antialiased;      
 }
 
-body, h1, h2, p, hr, footer {
+body, h1, h2, p, hr, footer, input {
     margin: 0;
     top: 0;
     left: 0;    
@@ -43,4 +43,15 @@ body, h1, h2, p, hr, footer {
     padding: 12px 28px;
     margin: 2px 0;  
     border: 3px black solid;    
+}
+
+.input, .output{
+    width: 100%;
+    padding: 12px 28px;
+    margin: 2px 0;  
+    border: 3px black solid;    
+}
+
+.output{
+    color:brown;
 }
